@@ -27,16 +27,16 @@
   border-radius: 5px;
 }
 
-.statusBlue {
-  background-color: blue;
+.statusGreen {
+  background-color: green;
   display: block;
   width: 10px;
   height: 10px;
   border-radius: 50%;
 }
 
-.statusYellow {
-  background-color: yellow;
+.statusRed {
+  background-color: red;
   display: block;
   width: 10px;
   height: 10px;

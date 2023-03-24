@@ -4,7 +4,7 @@ import { FriendListItem } from './FriendListItem';
 export const FriendList = ({ friends }) => {
   return (
     <ul className={css.friendList}>
-      <FriendListItem friends={friends} />;
+      <FriendListItem friends={friends} />
     </ul>
   );
 };
