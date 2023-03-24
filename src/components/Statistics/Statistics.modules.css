@@ -3,7 +3,6 @@ section {
   flex-direction: column;
   justify-content: center;
   width: 300px;
-  /* padding: 10px; */
   margin: 0 auto;
   margin-top: 100px;
   margin-bottom: 100px;
@@ -11,15 +10,6 @@ section {
 }
 
 h2 {
-  /* display: flex;
-  margin-left: 50px;
-  text-align: center;
-  text-transform: uppercase;
-  padding-top: 10px;
-  padding-bottom: 10px;
-
-  border-bottom: 1px solid black; */
-
   text-align: center;
   font-weight: 700;
   font-size: 30px;
