@@ -9,14 +9,30 @@
 }
 
 .transactionHistory thead {
-  background-color: rgb(236, 46, 176);
+  background-color: rgb(27, 188, 220);
+}
+
+thead {
+  color: white;
 }
 
 tbody {
-  background-color: #beb7b7;
   text-align: center;
+  color: gray;
 }
 
 td {
   padding: 3px;
 }
+
+tbody tr:nth-child(odd) {
+  background-color: #fff;
+}
+
+tbody tr:nth-child(even) {
+  background-color: #daddf7;
+}
+
+/* table {
+  background-color: #ff33cc;
+} */

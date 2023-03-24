@@ -1,4 +1,4 @@
-/* @import-normalize; */
+@import-normalize;
 /* bring in normalize.css styles  */
 body {
   margin: 0;
@@ -14,7 +14,32 @@ code {
     monospace;
 }
 
-ul,
-ol {
+p,
+h2,
+ul {
+  margin: 0;
+  padding: 0;
   list-style: none;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+:root {
+  --accent: #6a9bd8;
+  --primary: #282828;
+  --secondary: #858585;
+  --bg: #ebf5fc;
+  --main-shadow: -2px -2px 5px #ffffff, 3px 3px 5px rgba(0, 0, 0, 0.1);
+  --inset-shadow: inset -2px -2px 5px #ffffff,
+    inset 3px 3px 5px rgba(0, 0, 0, 0.1);
+  --online: #40c767;
+  --offline: #ff5858;
 }
